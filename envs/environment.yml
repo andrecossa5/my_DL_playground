@@ -1,0 +1,27 @@
+name: DL
+channels:
+  - pytorch 
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - leidenalg
+  - openblas
+  - llvm-openmp
+  - statsmodels
+  - scikit-learn
+  - umap-learn
+  - yaml
+  - conda-build
+  - lightgbm
+  - pip
+  - scvi-tools
+  - pytorch=2.1
+  - torchtext
+  - torchvision
+  - torchdata=0.7
